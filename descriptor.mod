@@ -6,4 +6,4 @@ tags={
 	"Spaceships"
 }
 name="Leviathan's Tribute"
-supported_version="3.6.1"
+supported_version="3.6.*"

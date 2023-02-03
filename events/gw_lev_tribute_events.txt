@@ -1,0 +1,14 @@
+namespace = gw_lev_tribute
+country_event = {
+	id = gw_lev_tribute.1
+	hide_window = yes
+	fire_only_once = yes
+	trigger = {
+		NOT = {
+			has_global_flag = gw_lev_tribute_installed
+		}
+	}
+	immediate = {
+		set_global_flag = gw_lev_tribute_installed
+	}
+}
